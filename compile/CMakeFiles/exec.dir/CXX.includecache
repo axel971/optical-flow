@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/axel/Documents/code/LucasKanade/source/main.cpp
+opencv2/imgproc/imgproc.hpp
+/home/axel/Documents/code/LucasKanade/source/opencv2/imgproc/imgproc.hpp
+opencv2/highgui/highgui.hpp
+/home/axel/Documents/code/LucasKanade/source/opencv2/highgui/highgui.hpp
+opencv2/video/tracking.hpp
+/home/axel/Documents/code/LucasKanade/source/opencv2/video/tracking.hpp
+iostream
+-
+string
+-
+
