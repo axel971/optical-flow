@@ -11,7 +11,7 @@ using namespace std;
 main(int argc, char* argv[])
 {
 
-  VideoCapture cap("visiontraffic.avi"); //Open the video
+  VideoCapture cap(argv[1]); //Open the video
   if(!cap.isOpened()) //Check if the video is really open
     return -1;
 
