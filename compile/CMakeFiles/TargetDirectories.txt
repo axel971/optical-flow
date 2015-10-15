@@ -1,1 +1,0 @@
-/home/axel/Documents/code/LucasKanade/compile/CMakeFiles/exec.dir
