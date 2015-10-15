@@ -12,6 +12,12 @@ using namespace std;
 main(int argc, char* argv[])
 {
 
+  if(argc < 2)
+    {
+      cerr << "required file name "<< endl;
+      return -1;
+    }
+
   VideoCapture cap(argv[1]); //Open the video
   if(!cap.isOpened()) //Check if the video is really open
     return -1;
