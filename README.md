@@ -10,6 +10,6 @@ Instructions for compilation (linux) : <br>
 
 cmake -H. -Bcompile/ <br>
 cd compile <br>
-make 
+make <br>
 ./exec fileNameVideo
 
